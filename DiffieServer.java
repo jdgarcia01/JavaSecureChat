@@ -38,7 +38,7 @@ public class DiffieServer {
 
 
     private int servPort = 9999;
-    private int RSAKeySize = 512;
+    private int RSAKeySize = 2048;
     private Key pubKey = null;
     private Key mServerPrivateKey = null;
     private Key mCommonKey = null;

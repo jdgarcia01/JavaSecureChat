@@ -120,7 +120,7 @@ public class DiffieClient {
             try {
 
                 KeyPairGenerator DHKeyGen = KeyPairGenerator.getInstance("DH");
-                DHKeyGen.initialize(512);
+                DHKeyGen.initialize(2048);
                 mKeyPair = DHKeyGen.generateKeyPair();
                 mClientPublicKey = mKeyPair.getPublic();
                 mClientPrivateKey = mKeyPair.getPrivate();
