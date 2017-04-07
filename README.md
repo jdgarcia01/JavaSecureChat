@@ -5,3 +5,6 @@ then the client and server swap public keys, generate a common secret key from t
 each other.   This program mainly shows how to send the key objects via plain non SSL sockets.  Of course in the real world 
 you could just use SSL sockets but this program is just used to illustrate the key exchange process from an academic perspective.
 
+If you want to run the code, make sure you have the Oracle Java Cryptography Extension for unlimited strength found here:
+http://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html
+
